@@ -1,0 +1,176 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#F4F4F4;
+}
+
+/* Global */
+.container {
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+/* Header */
+header {
+  background:#1C1C1C;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#DDF0FF 3px solid;
+}
+
+header #logo {
+  float:left;
+  white-space:nowrap;
+}
+
+header img {
+  float:left;
+  width:100px;
+  margin-bottom: 10px;
+}
+
+header #logo h2 {
+  margin:0;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+header nav {
+  float:right;
+  margin-top:30px;
+}
+
+header li {
+  float:left;
+  display:inline;
+  padding:0 12px;
+}
+
+header a {
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:1.1rem;
+}
+
+header .highlight, header .current a {
+  color:#DDF0FF;
+  font-weight:bold;
+}
+
+header a:hover {
+  color:#E4E4E4;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase {
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat center;
+  background-size:cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1 {
+  margin-top:100px;
+  font-size:3.7rem;
+  margin-bottom:10px;
+}
+
+/* Banner */
+#banner {
+  padding:15px;
+  color:#ffffff;
+  background:#1C1C1C;
+}
+
+#banner h1 {
+  float:left;
+}
+
+#banner button {
+  float:right;
+  margin-top:20px;
+}
+
+/* Boxes */
+#boxes {
+  margin-top:20px;
+}
+
+#boxes .box {
+  float:left;
+  text-align:center;
+  width:30%;
+  padding:1.6%;
+}
+
+#boxes .box img {
+  width:90px;
+}
+
+#boxes article {
+  text-align:center;
+  width:98%;
+  padding:1%;
+}
+
+#boxes article img {
+  width:200px;
+}
+
+/* About */
+#about .box {
+  float:left;
+  text-align:center;
+  width:70%;
+  padding:15%;
+}
+
+#about .box p {
+  max-width:800px;
+}
+
+#about .box img {
+  width:70%;
+  margin:20px, 15%;
+}
+
+/* Footer */
+footer {
+  padding:20px;
+  margin-top:20px;
+  color:black;
+  background-color:#DDF0FF;
+  text-align:center;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+  header #logo,
+  header nav
+  header nav li,
+  #banner h1,
+  #boxes .box {
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header {
+    padding-bottom:20px;
+  }
+
+  #showcase h1 {
+    margin-top:40px;
+  }
+}
