@@ -23,7 +23,7 @@ header {
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#DDF0FF 3px solid;
+  border-bottom:#34ebe5 3px solid;
 }
 
 header #logo {
@@ -62,7 +62,7 @@ header a {
 }
 
 header .highlight, header .current a {
-  color:#DDF0FF;
+  color:#34ebe5;
   font-weight:bold;
 }
 
@@ -150,7 +150,7 @@ footer {
   padding:20px;
   margin-top:20px;
   color:black;
-  background-color:#DDF0FF;
+  background-color:#a5faf7;
   text-align:center;
 }
 
